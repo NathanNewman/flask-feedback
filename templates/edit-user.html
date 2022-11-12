@@ -1,0 +1,18 @@
+{% extends 'index.html' %} {% block content %}
+<h2>Edit User Form</h2>
+<form action="/edit-user" method="POST">
+  {{ form.hidden_tag() }} {% for field in form if field.widget.input_type !=
+  'hidden' %}
+  <p>
+    {{ field.label }} {{ field }} {% for error in field.errors %}
+    <em class="error">{{ error }}</em>
+    {% endfor %}
+  </p>
+  {% endfor %}
+  <button>Save Edit</button>
+</form>
+<form action="/user/{{userId}}/delete" method="post">
+  <button>Unregister User</button>
+</form>
+
+{% endblock %}

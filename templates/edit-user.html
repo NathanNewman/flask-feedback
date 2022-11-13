@@ -9,10 +9,10 @@
     {% endfor %}
   </p>
   {% endfor %}
-  <button>Save Edit</button>
+  <button class="submit">Save Edit</button>
 </form>
 <form action="/user/{{userId}}/delete" method="post">
-  <button>Unregister User</button>
+  <button class="delete">Unregister User</button>
 </form>
 
 {% endblock %}

@@ -1,0 +1,41 @@
+body {
+    background-color: lightsteelblue;
+}
+
+h1 {
+    color: darkblue
+}
+
+h2 {
+    color: darkblue
+}
+
+.error {
+    color: red;
+}
+
+.submit {
+    background-color: blue;
+    color:white;
+    border: none;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    background-color:darkblue;
+    cursor:pointer;
+}
+
+.delete {
+    background-color: red;
+    color:white;
+    border:none;
+    border-radius: 10px;
+}
+
+.delete:hover {
+    background-color: darkred;
+    cursor:pointer;
+}
+
+

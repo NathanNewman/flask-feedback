@@ -38,4 +38,9 @@ h2 {
     cursor:pointer;
 }
 
+span {
+    display: inline-flex;
+    align-items: center;
+}
+
 
